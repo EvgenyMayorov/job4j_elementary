@@ -1,6 +1,6 @@
 package ru.job4j.condition;
 
-public interface AlertDivByZero {
+public class AlertDivByZero {
 
     public static void possibleDiv(int number) {
         if (number == 0) {
