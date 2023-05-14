@@ -33,4 +33,13 @@ public class PointTest {
         double dist = a.distance(b);
         Assert.assertEquals(expected, dist, 0.01);
     }
+
+    @Test
+    public void when23to45to67then1Dot73() {
+        double expected = 1.73;
+        Point a = new Point(2, 4, 6);
+        Point b = new Point(3, 5, 7);
+        double dist = a.distance3d(b);
+        Assert.assertEquals(expected, dist, 0.01);
+    }
 }
