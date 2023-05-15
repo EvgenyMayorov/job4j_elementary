@@ -7,7 +7,7 @@ public class Broken {
 
     private static final String NEW_VALUE = "";
 
-    String name;
+    private String name;
 
     public Broken() {
 
